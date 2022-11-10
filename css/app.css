@@ -38,7 +38,7 @@ button {
 }
 
 body {
-  margin: 5% 10%;
+  margin: 5% 8%;
 }
 
 .text-center{
@@ -60,7 +60,7 @@ body {
 
 @media screen and (max-width: 600px) {
   .projects {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
 }
 
@@ -118,9 +118,7 @@ body {
 }
 
 .project-content .project-title h2{
-  font-size: 24px;
-  text-align: center;
-  font-size: 24px;
+  font-size: 23px;
   display: block;
   display: -webkit-box;
   line-height: 1.5;
@@ -132,17 +130,17 @@ body {
 }
 
 .project-content .project-disc{
-  text-align:justify;
   display: block;
   display: -webkit-box;
   font-size: 14px;
   line-height: 1.5;
-  -webkit-line-clamp: 5;  /* số dòng hiển thị */
+  -webkit-line-clamp: 4;  /* số dòng hiển thị */
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
   margin-top:15px;
-  word-break: break-all;
+  /* word-break: break-all; */
+  height: 84px;
 }
 
 .project-member{
