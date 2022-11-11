@@ -6,9 +6,8 @@
 }
 
 body {
-    background-image: url('https://3.bp.blogspot.com/-0gedoIpDjLQ/XNNKjXHM9GI/AAAAAAAAI8I/tlmZSYShR4MfEcxmVWZT7P8BYo_ihG3lQCLcBGAs/s1600/io19_Blog_AndroidandPlay.png');
+    background-image: url('img/bg.jpg');
     background-repeat: no-repeat;
-
     background-color: #fff;
     font-family: 'Muli', sans-serif;
     display: flex;
@@ -93,12 +92,12 @@ h1 span {
 
     48% {
         top: -4.5rem;
-        width: 190px;
+        width: 290px;
     }
 
     62% {
         top: -4.5rem;
-        width: 190px;
+        width: 290px;
     }
 
     66% {
@@ -176,6 +175,34 @@ h1 span {
     opacity: 1;
     transition: opacity 0.3s ease-in 0.4s;
 }
+
+.button-wrapper {
+    align-items: center;
+    justify-content: center;
+}
+
+.button-wrapper button {
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    width: 200px;
+    background: #0F9D58;
+    padding: 15px;
+    font-family: inherit;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.button-wrapper button:focus {
+    outline: 0;
+}
+
+
+.button-wrapper button:active {
+    transform: scale(0.98);
+}
+
 
 @media(max-width: 480px) {
     .container {

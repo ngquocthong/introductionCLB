@@ -1,4 +1,5 @@
 const panels = document.querySelectorAll('.panel')
+
 console.log(panels);
 panels.forEach(panel => {
     panel.addEventListener('click', () => {
@@ -13,4 +14,8 @@ function removeActiveClasses() {
     panels.forEach(panel => {
         panel.classList.remove('active')
     })
+}
+
+document.getElementById('discover').onclick = function () {
+    window.location.href = "./events.html";
 }
