@@ -22,6 +22,62 @@
     <link rel="stylesheet" href="./css/themify-icons/themify-icons.css" />
   </head>
   <body>
-    
+    <header>
+      <div class="logo">GDSC - Can Tho Campus</div>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <nav class="nav-bar">
+        <ul>
+          <li><a href="" class="active">Introduction</a></li>
+          <li><a href="">Leader</a></li>
+          <li><a href="">Events</a></li>
+          <li><a href="">Projects</a></li>
+          <li><a href="">Attendant</a></li>
+        </ul>
+      </nav>
+    </header>
+
+      <div class="content"></div>
+
+    <footer class="footer">
+      <div class="footer">
+        <div class="footer-item">
+          <h4 class="footer-item-title">About GDSC</h4>
+          <a href="https://developers.google.com/community/gdsc">About</a>
+          <a href="https://developers.google.com/community/gdsc/leads">Leads</a>
+          <a href="https://developers.google.com/community-guideliness">Guidelines</a>
+          <a href="https://developers.google.com/community/gdsc/stories"
+            >Blog</a
+          >
+        </div>
+        <div class="footer-item">
+          <h4 class="footer-item-title">About GDSC</h4>
+          <a href="">About</a>
+          <a href="">Leads</a>
+          <a href="">Community Guidelines</a>
+          <a href="">Blog</a>
+        </div>
+        <div class="footer-item">
+          <h4 class="footer-item-title">Contact</h4>
+          <div class="footer-contact">
+            <a href=""><i class="ti-youtube"></i></a>
+            <a href=""><i class="ti-facebook"></i></a>
+            <a href=""><i class="ti-trello"></i></a>
+            <a href=""><i class="ti-skype"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      hamburger = document.querySelector(".hamburger");
+      hamburger.onclick = function () {
+        navBar = document.querySelector(".nav-bar");
+        navBar.classList.toggle("active");
+      };
+    </script>
   </body>
 </html>
