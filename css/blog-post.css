@@ -1,0 +1,90 @@
+/* BLOG-POST */
+
+.blog{
+    margin-bottom: 30px
+  }
+  
+  .blog .blog-name{
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .blog .blog-content{
+    text-align: justify;
+  }
+  
+  .about-team{
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .about-team .team-name{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-team .team-desc{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .about-team .members-list{
+    display: grid;
+    grid-column-gap: 100px;
+    grid-row-gap: 80px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+  .members-list .member-item{
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  .member-item .member-img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .member-item .member-img:hover {
+    transform: scale(1.05)
+  }
+  
+  .member-item .member-infor{
+    padding: 0 20px;
+    border-left: 2px solid #000000b3;
+    line-height:2.0
+  }
+  
+  .member-infor .member-name{
+    font-size: 15px;
+  }
+  
+  .member-infor .member-role{
+    color: rgb(94, 94, 94);
+    font-size: 13px;
+  }
+  
+  .member-contact a{
+    background-color:rgb(230, 230, 230);
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20%;
+    /* margin-right: 0px; */
+  }
+
+  .member-contact i[class*="ti-"]{
+    color:#000;
+    font-size: 16px;
+    line-height: 30px
+  }
+
+  .member-contact a:hover{
+    background-color:#ccc
+  }
+
+  
