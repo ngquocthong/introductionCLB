@@ -187,13 +187,13 @@ h1 span {
     cursor: pointer;
     display: inline-block;
     width: 200px;
-    background: #1423cb;
+    background-image: linear-gradient(to right, #345da7,#4bb4de, #efdbcb);
     padding: 5px;
     font-family: inherit;
     font-size: 15px;
     border: 0;
     border-radius: 5px;
-    transition: ease-out 0.3s;
+    transition: ease-out 0.5s;
 }
 
 .button-wrapper button:focus {
@@ -201,8 +201,8 @@ h1 span {
 }
 
 .button-wrapper button:hover {
-    background: #0c0181;
-    transition: linear 0.3s;
+    background-image: linear-gradient(to right, #032a72,#0c77a2, #efdbcb);
+    transition: linear 0.5s;
 }
 
 
