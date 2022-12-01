@@ -47,7 +47,7 @@ h1 span {
     position: absolute;
     padding-left: 0.5rem;
     top: 0.2rem;
-    left: 250px;
+    left: 200px;
     animation: openclose 5s ease-in-out infinite;
 }
 
@@ -68,12 +68,12 @@ h1 span {
     }
 
     15% {
-        width: 230px;
+        width: 200px;
     }
 
     30% {
         top: 0.2rem;
-        width: 230px;
+        width: 200px;
     }
 
     33% {
@@ -93,12 +93,12 @@ h1 span {
 
     48% {
         top: -4.5rem;
-        width: 290px;
+        width: 200px;
     }
 
     62% {
         top: -4.5rem;
-        width: 290px;
+        width: 200px;
     }
 
     66% {
@@ -115,12 +115,12 @@ h1 span {
 
     86% {
         top: -9rem;
-        width: 285px;
+        width: 200px;
     }
 
     95% {
         top: -9rem;
-        width: 285px;
+        width: 200px;
     }
 
     98% {
