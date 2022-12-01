@@ -30,6 +30,7 @@ body {
     overflow: hidden;
     position: relative;
     width: 550px;
+    margin: 15px;
 }
 
 h1 span {
@@ -46,7 +47,7 @@ h1 span {
     position: absolute;
     padding-left: 0.5rem;
     top: 0.2rem;
-    left: 270px;
+    left: 250px;
     animation: openclose 5s ease-in-out infinite;
 }
 
@@ -186,16 +187,22 @@ h1 span {
     cursor: pointer;
     display: inline-block;
     width: 200px;
-    background: #0F9D58;
-    padding: 15px;
+    background: #1423cb;
+    padding: 5px;
     font-family: inherit;
-    font-size: 20px;
+    font-size: 15px;
     border: 0;
     border-radius: 5px;
+    transition: ease-out 0.3s;
 }
 
 .button-wrapper button:focus {
     outline: 0;
+}
+
+.button-wrapper button:hover {
+    background: #0c0181;
+    transition: linear 0.3s;
 }
 
 
