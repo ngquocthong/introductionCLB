@@ -6,9 +6,10 @@
 }
 
 body {
-    background-image: url('img/bg.jpg');
+    background-image: url('../img/bg.png');
     background-repeat: no-repeat;
-    background-color: #fff;
+    background-size: cover;
+    background-attachment: fixed;   
     font-family: 'Muli', sans-serif;
     display: flex;
     flex-direction: column;
